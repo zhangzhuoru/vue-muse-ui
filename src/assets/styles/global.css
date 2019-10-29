@@ -1,0 +1,111 @@
+body {
+  font-family: sans-serif !important;
+}
+
+.md-card {
+  margin: 18px !important;
+}
+
+.md-dialog {
+  padding: 10px 0 !important;
+}
+
+.input_content {
+  border-bottom: 1px solid #e89456 !important;
+  color: #424242;
+}
+
+.md_content {
+  background: rgba(232, 148, 86, 0) !important;
+}
+
+.check {
+  padding: 0 !important;
+  height: 30px !important;
+  background: #579fe9;
+  border-radius: 20px;
+  color: #ffffff !important;
+  font-size: 10px;
+}
+
+.md-list.md-theme-default {
+  border-radius: 10px !important;
+}
+
+.card {
+  position: relative;
+  box-shadow: none !important;
+}
+
+.moreicon {
+  color: #424242 !important;
+  opacity: 0.9 !important;
+}
+
+.md-dialog-actions {
+  padding: 8px !important;
+}
+
+/* .submit,.cancel{
+    width:40%!important;
+} */
+
+.md-field:after {
+  height: 0px !important;
+}
+
+.md-app-container {
+  transform: none !important;
+}
+
+/* @media screen and (max-width:460px){
+    .current{
+        display:none;
+    }
+} */
+
+@media screen and (max-width: 460px) {
+  .md-card {
+    width: 240px !important;
+  }
+}
+
+/* @media screen and (max-width:700px){
+    .switch{
+        top:9vh;
+        z-index:1000;
+    }
+} */
+
+/* 浏览器滚动条设置 */
+/* width */
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgb(255, 255, 255);
+  border-radius: 8px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(201, 201, 202);
+  border-radius: 8px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(162, 162, 163);
+}
+
+/* msg */
+.messageZindex{
+  z-index:10000!important;
+}
+
+a{
+  color:#ccc!important;
+}
